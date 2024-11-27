@@ -1,0 +1,130 @@
+.box{
+	 width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+.box1{
+	width: 100px;
+  height: 100px;
+  background-color: green;
+  animation-name: example1;
+  animation-duration: 4s;
+}
+@keyframes example1 {
+  0%   {background-color: green;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: red;}
+}
+.box2{
+	width: 100px;
+	  height: 100px;
+	  background-color: yellow;
+	  position: relative;
+	  animation-name: example2;
+	  animation-duration: 4s;
+}
+@keyframes example2 {
+  0%   {background-color:yellow; left:0px; top:0px;}
+  25%  {background-color:red; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+.box3{
+	  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  animation-name: example3;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+@keyframes example3 {
+  0%   {background-color:blue; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:red; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+.box4{
+	  width: 100px;
+  height: 100px;
+  background-color: black;
+  position: relative;
+  animation-name: example4;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+@keyframes example4 {
+  0%   {background-color:black; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+.box5{
+	  width: 100px;
+  height: 100px;
+  background-color: #626262;
+  position: relative;
+  animation-name: example5;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+}
+@keyframes example5 {
+  0%   {background-color: #626262; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+.alias {cursor: alias;}
+.all-scroll {cursor: all-scroll;}
+.auto {cursor: auto;}
+.cell {cursor: cell;}
+.col-resize {cursor: col-resize;}
+.context-menu {cursor: context-menu;}
+.copy {cursor: copy;}
+.crosshair {cursor: crosshair;}
+.default {cursor: default;}
+.e-resize {cursor: e-resize;}
+.ew-resize {cursor: ew-resize;}
+.grab {cursor: -webkit-grab; cursor: grab;}
+.grabbing {cursor: -webkit-grabbing; cursor: grabbing;}
+.help {cursor: help;}
+.move {cursor: move;}
+.n-resize {cursor: n-resize;}
+.ne-resize {cursor: ne-resize;}
+.nesw-resize {cursor: nesw-resize;}
+.ns-resize {cursor: ns-resize;}
+.nw-resize {cursor: nw-resize;}
+.nwse-resize {cursor: nwse-resize;}
+.no-drop {cursor: no-drop;}
+.none {cursor: none;}
+.not-allowed {cursor: not-allowed;}
+.pointer {cursor: pointer;}
+.progress {cursor: progress;}
+.row-resize {cursor: row-resize;}
+.s-resize {cursor: s-resize;}
+.se-resize {cursor: se-resize;}
+.sw-resize {cursor: sw-resize;}
+.text {cursor: text;}
+.url {cursor: url(myBall.cur),auto;}
+.w-resize {cursor: w-resize;}
+.wait {cursor: wait;}
+.zoom-in {cursor: zoom-in;}
+.zoom-out {cursor: zoom-out;}
+
+
+.containers{
+    font-size: 100px;
+  color: blue;
+}
